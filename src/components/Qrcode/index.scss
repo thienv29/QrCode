@@ -1,0 +1,25 @@
+.qrcode{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.qrcodeImg {
+    width: 321px;
+    height: 321px;
+    background: #ffffff;
+    border-radius: 21px;
+    
+}
+#Download {
+    width: 321px;
+    height: 74px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+.buttonDownload{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px !important;
+}

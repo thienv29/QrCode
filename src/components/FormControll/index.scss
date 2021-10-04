@@ -1,0 +1,41 @@
+@import '../../base.scss';
+.formControll {
+    width: 822px;
+    height: 163px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    .background {
+        @include fexCenter();
+        
+    }
+    .level{
+        @include fexCenter();
+        flex-direction:row;
+    }
+    #color{
+        @include fexCenter();
+        flex-direction: column;
+    }
+    .formControll_left{
+        width: 40%;
+        @include fexCenter();
+        justify-content: space-around;
+    }
+    .formControll_right{
+        width: 60%;
+        @include fexCenter();
+        justify-content: space-around;
+        border-radius: 10px;
+        .slide{
+            width: 50%;
+            .slideLogoSize,.slideLogoPosition{
+                @include fexCenter();
+                .slideLogoSize-slide{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

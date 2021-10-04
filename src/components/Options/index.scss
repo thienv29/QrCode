@@ -1,0 +1,51 @@
+.options {
+    width: 822px;
+    height: 470px;
+    position: relative;
+
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 30px;
+}
+.navigation {
+    width: 100%;
+    display: flex;
+    background: linear-gradient(
+            65.73deg,
+            rgba(128, 0, 255, 0.2) 5.71%,
+            rgba(255, 0, 128, 0.2) 30.76%,
+            rgba(5, 0, 255, 0.2) 57.28%,
+            rgba(0, 194, 255, 0.2) 76.84%,
+            rgba(255, 0, 211, 0.2) 99.99%,
+            rgba(255, 0, 150, 0.2) 100%
+        ),
+        #ffffff;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 12%;
+    border-width: 1px ;
+    border-color: linear-gradient(
+            65.73deg,
+            rgba(128, 0, 255, 0.2) 5.71%,
+            rgba(255, 0, 128, 0.2) 30.76%,
+            rgba(5, 0, 255, 0.2) 57.28%,
+            rgba(0, 194, 255, 0.2) 76.84%,
+            rgba(255, 0, 211, 0.2) 99.99%,
+            rgba(255, 0, 150, 0.2) 100%
+        ),
+        #ffffff;
+}
+.naviLeft {
+    width: 100%;
+}
+
+.qrcodeImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_input{
+    height: 85%;
+}

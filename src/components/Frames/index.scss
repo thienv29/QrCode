@@ -1,0 +1,10 @@
+@import '../../base.scss';
+#Frames {
+    width: 321px;
+    height: 193px;
+
+    background: #ffffff;
+    border-radius: 20px;
+    @include fexCenter();
+    
+}

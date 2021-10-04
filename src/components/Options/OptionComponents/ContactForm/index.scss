@@ -1,0 +1,29 @@
+.containerContact{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.contactMain{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+.contactEmail{
+    flex: 0 1 auto;
+    margin: 10px 0 10px 0;
+}
+.contactAddress {
+    & > *{
+        height: 100%;
+        & > *{
+            height: 100%;
+        }
+    }
+}
+.contactAddress{
+    flex: 1 1 auto;
+    margin: 10px 0 10px 0;
+}
+.textfield{
+    
+}
